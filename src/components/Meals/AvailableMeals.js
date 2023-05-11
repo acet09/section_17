@@ -13,7 +13,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        'https://react-cover-default-rtdb.firebaseio.com/meals.json@'
+        'https://react-cover-default-rtdb.firebaseio.com/meals.json'
       );
 
       if (!response.ok) {
@@ -37,7 +37,7 @@ const AvailableMeals = () => {
       setIsLoading(false);
     };
 
-    fetchMeals().catch(error => {
+    fetchMeals().catch((error) => {
       setIsLoading(false);
       setHttpError(error.message);
     });
