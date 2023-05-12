@@ -10,7 +10,7 @@ const MealsSummary = () => {
       </p>
       <p>
         All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs! (깃허브 연동 실험중)
+        of course by experienced chefs!
       </p>
     </section>
   );
