@@ -33,7 +33,11 @@
   color: #5a1a01;
   cursor: pointer;
   background-color: transparent;
+<<<<<<< HEAD
   border: 1px solid #8a2b06;
+=======
+  border: none;
+>>>>>>> 2102a32ee2f4d1a432bb25f351d10bb427d04691
   border-radius: 25px;
   padding: 0.5rem 2rem;
 }
